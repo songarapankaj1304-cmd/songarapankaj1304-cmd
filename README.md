@@ -1,16 +1,15 @@
-## Hi there 👋
+Hi 👋, I'm Pankaj Songara  
 
-<!--
-**songarapankaj1304-cmd/songarapankaj1304-cmd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A passionate Cybersecurity student with a strong interest in Penetration Testing,  
+Web Application Security, and Android Application Security.  
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🎯 Cybersecurity Intern | Aspiring Penetration Tester  
+- 🔐 Interested in Ethical Hacking & Vulnerability Assessment  
+- 🌐 Learning Web App & Mobile App Penetration Testing  
+- 🛠️ Exploring tools like Kali Linux, Burp Suite, Nmap, and Metasploit  
+- 📚 Focused on OWASP Top 10 and real-world security concepts  
+- 🧠 Learning through hands-on labs and practical experimentation  
+- 💡 Curious about how systems break and how to secure them  
+- 🚀 Building skills step by step in Cybersecurity  
+- 📂 This GitHub will contain my notes, projects, and security practice work  
+- 🤝 Open to learning, collaboration, and new opportunities  
