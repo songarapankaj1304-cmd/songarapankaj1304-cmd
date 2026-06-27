@@ -1,15 +1,26 @@
-Hi 👋, I'm Pankaj Songara  
+<h1 align="center">Hi, I'm Pankaj Songara 👋</h1>
 
-A passionate Cybersecurity student with a strong interest in Penetration Testing,  
-Web Application Security, and Android Application Security.  
+<h3 align="center">
+Founder • AI Systems Engineer • Cybersecurity Engineer
+</h3>
 
-- 🎯 Cybersecurity Intern | Aspiring Penetration Tester  
-- 🔐 Interested in Ethical Hacking & Vulnerability Assessment  
-- 🌐 Learning Web App & Mobile App Penetration Testing  
-- 🛠️ Exploring tools like Kali Linux, Burp Suite, Nmap, and Metasploit  
-- 📚 Focused on OWASP Top 10 and real-world security concepts  
-- 🧠 Learning through hands-on labs and practical experimentation  
-- 💡 Curious about how systems break and how to secure them  
-- 🚀 Building skills step by step in Cybersecurity  
-- 📂 This GitHub will contain my notes, projects, and security practice work  
-- 🤝 Open to learning, collaboration, and new opportunities  
+<p align="center">
+I build intelligent software at the intersection of artificial intelligence,
+cybersecurity, and automation—creating technology that is secure,
+private, and built for the future.
+</p>
+
+<p align="center">
+🚀 Currently building <b>ARIA OS</b>, an AI operating system reimagining how
+humans interact with intelligent software.
+</p>
+
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Building+Intelligent+Software;Engineering+AI+Systems;Creating+Privacy-First+Technology;Building+Tomorrow,+Today"
+      alt="Typing SVG"
+    />
+  </a>
+</p>
