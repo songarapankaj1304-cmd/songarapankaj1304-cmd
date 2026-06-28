@@ -76,76 +76,176 @@ Currently, I'm building **ARIA OS** while exploring autonomous AI systems, local
 
 
 <!-- ===================================================== -->
-<!-- FEATURED WORK -->
+<!-- NEURAL PROJECT MATRIX -->
 <!-- ===================================================== -->
 
-# 🚀 Featured Work
+# <img src="https://img.icons8.com/fluency/32/rocket.png"/> Neural Project Matrix
 
-Below are some of the projects I've been building across artificial intelligence, cybersecurity, and software engineering.
+> **Every project represents a step toward building the future of intelligent software.**
 
----
+<br>
 
-### 🤖 ARIA OS *(Flagship Project)*
+<table>
 
-A privacy-first AI operating system designed to evolve beyond traditional assistants into an intelligent digital partner.
+<tr>
 
-**Focus Areas**
+<td width="50%" valign="top">
 
-- 🧠 AI Systems Engineering
-- 🤖 Local AI & LLM Integration
-- 🗂️ Long-Term Memory
-- ⚙️ Autonomous Agents
-- 📚 Knowledge Graph
-- 🔒 Privacy-First Architecture
+## 🤖 ARIA OS
 
-> 🚧 **Status:** Active Development *(Private Repository)*
+```yaml
+STATUS:
+██████████████░░░░ 70%
 
----
+FLAGSHIP PROJECT
 
-### 🛡️ ThreatVision AI
+TYPE:
+Artificial Intelligence Operating System
 
-An AI-powered cybersecurity platform focused on intelligent threat analysis, monitoring, and security automation.
+MISSION:
+Build a privacy-first AI capable of
+thinking, remembering,
+planning and collaborating.
 
-**Highlights**
+CURRENT MODULES:
 
-- 🔍 Threat Detection
-- 📊 Security Analysis
-- ⚡ AI-Assisted Automation
-- 🛡️ Threat Intelligence
+✓ Memory Engine
 
-🔗 Repository:
+✓ Knowledge Graph
+
+✓ Decision Engine
+
+✓ Context Engine
+
+✓ Planner
+
+✓ Recommendation Engine
+
+✓ Multi-Agent Architecture
+
+✓ Voice Intelligence (In Progress)
+
+✓ Computer Vision (Planned)
+
+TECHNOLOGIES:
+
+Node.js
+
+React
+
+Ollama
+
+Local LLMs
+
+PostgreSQL
+
+Automation
+```
+
+🔒 **Private Repository**
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🛡 ThreatVision AI
+
+```yaml
+STATUS:
+██████████████████ 90%
+
+TYPE:
+AI Security Platform
+
+CAPABILITIES:
+
+✓ Threat Analysis
+
+✓ Security Monitoring
+
+✓ AI Automation
+
+✓ Threat Intelligence
+
+DOMAIN:
+
+Cybersecurity
+
+Artificial Intelligence
+```
+
+🔗 Repository
+
 https://github.com/songarapankaj1304-cmd/ThreatVision-AI
 
----
+</td>
 
-### 🦠 Real-Time Malware Detection
+</tr>
 
-A cybersecurity project built using **Splunk** and **YARA** to detect, analyze, and monitor malicious activity in real time.
+<tr>
 
-**Highlights**
+<td valign="top">
 
-- 🦠 Malware Detection
-- 📈 Splunk Monitoring
-- 📜 YARA Rule Development
-- 🔒 Threat Hunting
+## 🦠 Malware Detection
 
-🔗 Repository:
+```yaml
+STATUS:
+████████████████████ 100%
+
+TOOLS:
+
+Splunk
+
+YARA
+
+Python
+
+OBJECTIVE:
+
+Real-Time Malware Detection
+
+Threat Monitoring
+
+Security Analytics
+```
+
+🔗 Repository
+
 https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA
 
+</td>
+
+<td valign="top">
+
+## 💬 Self-Destructing Chat Room
+
+```yaml
+STATUS:
+████████████░░░░░░ 65%
+
+TYPE:
+
+Secure Messaging
+
+FEATURES:
+
+Encrypted Communication
+
+Self Destruct Messages
+
+Privacy Focused
+
+Real-Time Chat
+```
+
+🔗 Repository
+
+https://github.com/songarapankaj1304-cmd/Self-Destructing-Chat-Room
+
+</td>
+
+</tr>
+
+</table>
+
 ---
-
-### 💬 Self-Destructing Chat Room
-
-A secure messaging application designed around temporary communication and automatic message destruction to improve user privacy.
-
-**Highlights**
-
-- 💬 Secure Messaging
-- ⏳ Self-Destructing Messages
-- 🔐 Privacy-Oriented Design
-- 🌐 Real-Time Communication
-
-> 🚧 Experimental Project
-
----
-
