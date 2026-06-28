@@ -74,98 +74,78 @@ Currently, I'm building **ARIA OS** while exploring autonomous AI systems, local
 ---
 
 
+
+<!-- ===================================================== -->
+<!-- FEATURED WORK -->
+<!-- ===================================================== -->
+
+# 🚀 Featured Work
+
+Below are some of the projects I've been building across artificial intelligence, cybersecurity, and software engineering.
+
 ---
 
-# 🚀 Featured Projects
+### 🤖 ARIA OS *(Flagship Project)*
 
-<table>
-<tr>
+A privacy-first AI operating system designed to evolve beyond traditional assistants into an intelligent digital partner.
 
-<td width="50%">
+**Focus Areas**
 
-### 🤖 ARIA OS
-
-A privacy-first AI operating system focused on intelligent automation, long-term memory, autonomous reasoning, and local AI.
-
-**Highlights**
-
-- 🧠 AI Systems Architecture
-- 🤖 Local LLM Integration
+- 🧠 AI Systems Engineering
+- 🤖 Local AI & LLM Integration
 - 🗂️ Long-Term Memory
-- ⚡ Multi-Agent Framework
-- 🔒 Privacy-First Design
+- ⚙️ Autonomous Agents
+- 📚 Knowledge Graph
+- 🔒 Privacy-First Architecture
 
-<a href="https://github.com/songarapankaj1304-cmd">
-<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
-</a>
+> 🚧 **Status:** Active Development *(Private Repository)*
 
-</td>
-
-<td width="50%">
+---
 
 ### 🛡️ ThreatVision AI
 
-An AI-powered cybersecurity platform for intelligent threat detection, analysis, and security automation.
+An AI-powered cybersecurity platform focused on intelligent threat analysis, monitoring, and security automation.
 
 **Highlights**
 
-- 🔍 Threat Analysis
-- 📊 Security Dashboard
-- ⚡ Automation
-- 🛠️ Incident Response
+- 🔍 Threat Detection
+- 📊 Security Analysis
+- ⚡ AI-Assisted Automation
+- 🛡️ Threat Intelligence
 
-<a href="https://github.com/songarapankaj1304-cmd">
-<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
-</a>
+🔗 Repository:
+https://github.com/songarapankaj1304-cmd/ThreatVision-AI
 
-</td>
+---
 
-</tr>
+### 🦠 Real-Time Malware Detection
 
-<tr>
-
-<td width="50%">
-
-### 🦠 Malware Detection
-
-Real-time malware detection using YARA rules and Splunk for monitoring and analysis.
+A cybersecurity project built using **Splunk** and **YARA** to detect, analyze, and monitor malicious activity in real time.
 
 **Highlights**
 
 - 🦠 Malware Detection
-- 📈 Splunk Dashboard
-- 📜 YARA Rules
+- 📈 Splunk Monitoring
+- 📜 YARA Rule Development
 - 🔒 Threat Hunting
 
-<a href="https://github.com/songarapankaj1304-cmd">
-<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
-</a>
-
-</td>
-
-<td width="50%">
-
-### 🚀 Future Projects
-
-Projects currently under research and development.
-
-- AI Research
-- Autonomous Agents
-- Intelligent Automation
-- Privacy-First Applications
-
-</td>
-
-</tr>
-</table>
+🔗 Repository:
+https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA
 
 ---
-# 🚀 What I'm Building
 
-I'm currently building **ARIA OS**, a privacy-first AI operating system that brings together artificial intelligence, cybersecurity, and intelligent automation into a single platform.
+### 💬 Self-Destructing Chat Room
 
-The vision behind ARIA is to create software that can think, remember, plan, and collaborate—moving beyond traditional chatbots toward a true digital partner.
+A secure messaging application designed around temporary communication and automatic message destruction to improve user privacy.
 
-Every project I build contributes toward that long-term vision while deepening my understanding of AI systems engineering.
+**Highlights**
 
+- 💬 Secure Messaging
+- ⏳ Self-Destructing Messages
+- 🔐 Privacy-Oriented Design
+- 🌐 Real-Time Communication
+
+> 🚧 Experimental Project
+
+---
 
