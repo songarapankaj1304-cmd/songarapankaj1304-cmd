@@ -73,6 +73,93 @@ Currently, I'm building **ARIA OS** while exploring autonomous AI systems, local
 
 ---
 
+
+---
+
+# 🚀 Featured Projects
+
+<table>
+<tr>
+
+<td width="50%">
+
+### 🤖 ARIA OS
+
+A privacy-first AI operating system focused on intelligent automation, long-term memory, autonomous reasoning, and local AI.
+
+**Highlights**
+
+- 🧠 AI Systems Architecture
+- 🤖 Local LLM Integration
+- 🗂️ Long-Term Memory
+- ⚡ Multi-Agent Framework
+- 🔒 Privacy-First Design
+
+<a href="https://github.com/songarapankaj1304-cmd">
+<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🛡️ ThreatVision AI
+
+An AI-powered cybersecurity platform for intelligent threat detection, analysis, and security automation.
+
+**Highlights**
+
+- 🔍 Threat Analysis
+- 📊 Security Dashboard
+- ⚡ Automation
+- 🛠️ Incident Response
+
+<a href="https://github.com/songarapankaj1304-cmd">
+<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### 🦠 Malware Detection
+
+Real-time malware detection using YARA rules and Splunk for monitoring and analysis.
+
+**Highlights**
+
+- 🦠 Malware Detection
+- 📈 Splunk Dashboard
+- 📜 YARA Rules
+- 🔒 Threat Hunting
+
+<a href="https://github.com/songarapankaj1304-cmd">
+<img src="https://img.shields.io/badge/View_Project-00E5FF?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🚀 Future Projects
+
+Projects currently under research and development.
+
+- AI Research
+- Autonomous Agents
+- Intelligent Automation
+- Privacy-First Applications
+
+</td>
+
+</tr>
+</table>
+
+---
 # 🚀 What I'm Building
 
 I'm currently building **ARIA OS**, a privacy-first AI operating system that brings together artificial intelligence, cybersecurity, and intelligent automation into a single platform.
@@ -80,3 +167,5 @@ I'm currently building **ARIA OS**, a privacy-first AI operating system that bri
 The vision behind ARIA is to create software that can think, remember, plan, and collaborate—moving beyond traditional chatbots toward a true digital partner.
 
 Every project I build contributes toward that long-term vision while deepening my understanding of AI systems engineering.
+
+
