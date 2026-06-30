@@ -76,176 +76,47 @@ Currently, I'm building **ARIA OS** while exploring autonomous AI systems, local
 
 
 <!-- ===================================================== -->
-<!-- NEURAL PROJECT MATRIX -->
+<!-- ACTIVE SYSTEMS -->
 <!-- ===================================================== -->
 
-# <img src="https://img.icons8.com/fluency/32/rocket.png"/> Neural Project Matrix
+<h2 align="center">◉ ACTIVE SYSTEMS</h2>
 
-> **Every project represents a step toward building the future of intelligent software.**
+<div align="center">
 
-<br>
+```text
+[ ONLINE ]   ARIA OS
+Building something more than an AI assistant.
 
-<table>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🤖 ARIA OS
-
-```yaml
-STATUS:
-██████████████░░░░ 70%
-
-FLAGSHIP PROJECT
-
-TYPE:
-Artificial Intelligence Operating System
-
-MISSION:
-Build a privacy-first AI capable of
-thinking, remembering,
-planning and collaborating.
-
-CURRENT MODULES:
-
-✓ Memory Engine
-
-✓ Knowledge Graph
-
-✓ Decision Engine
-
-✓ Context Engine
-
-✓ Planner
-
-✓ Recommendation Engine
-
-✓ Multi-Agent Architecture
-
-✓ Voice Intelligence (In Progress)
-
-✓ Computer Vision (Planned)
-
-TECHNOLOGIES:
-
-Node.js
-
-React
-
-Ollama
-
-Local LLMs
-
-PostgreSQL
-
-Automation
+→ Private Repository
 ```
 
-🔒 **Private Repository**
+---
 
-</td>
+```text
+[ ONLINE ]   ThreatVision AI
+AI-powered cybersecurity research platform.
 
-<td width="50%" valign="top">
-
-## 🛡 ThreatVision AI
-
-```yaml
-STATUS:
-██████████████████ 90%
-
-TYPE:
-AI Security Platform
-
-CAPABILITIES:
-
-✓ Threat Analysis
-
-✓ Security Monitoring
-
-✓ AI Automation
-
-✓ Threat Intelligence
-
-DOMAIN:
-
-Cybersecurity
-
-Artificial Intelligence
+→ https://github.com/songarapankaj1304-cmd/ThreatVision-AI
 ```
 
-🔗 Repository
+---
 
-https://github.com/songarapankaj1304-cmd/ThreatVision-AI
+```text
+[ ONLINE ]   Real-Time Malware Detection
+Real-time malware detection using Splunk + YARA.
 
-</td>
-
-</tr>
-
-<tr>
-
-<td valign="top">
-
-## 🦠 Malware Detection
-
-```yaml
-STATUS:
-████████████████████ 100%
-
-TOOLS:
-
-Splunk
-
-YARA
-
-Python
-
-OBJECTIVE:
-
-Real-Time Malware Detection
-
-Threat Monitoring
-
-Security Analytics
+→ https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA
 ```
 
-🔗 Repository
+---
 
-https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA
+```text
+[ ONLINE ]   Self-Destructing Chat Room
+Privacy-first secure communication experiment.
 
-</td>
-
-<td valign="top">
-
-## 💬 Self-Destructing Chat Room
-
-```yaml
-STATUS:
-████████████░░░░░░ 65%
-
-TYPE:
-
-Secure Messaging
-
-FEATURES:
-
-Encrypted Communication
-
-Self Destruct Messages
-
-Privacy Focused
-
-Real-Time Chat
+→ https://github.com/songarapankaj1304-cmd/Self-Destructing-Chat-Room
 ```
 
-🔗 Repository
-
-https://github.com/songarapankaj1304-cmd/Self-Destructing-Chat-Room
-
-</td>
-
-</tr>
-
-</table>
+</div>
 
 ---
