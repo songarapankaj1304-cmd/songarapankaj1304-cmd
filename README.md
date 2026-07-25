@@ -2,9 +2,7 @@
 <!-- ARIA // NEURAL INTERFACE -->
 <!-- ========================= -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:050816,50:0F172A,100:111827&text=Pankaj%20Songara&fontColor=00E5FF&fontSize=48&fontAlignY=38&desc=Founder%20%E2%80%A2%20AI%20Systems%20Engineer%20%E2%80%A2%20Cybersecurity%20Engineer&descAlignY=58&animation=fadeIn" alt="banner" />
-</p>
+
 
 <h1 align="center">Hi, I'm Pankaj Songara 👋</h1>
 
