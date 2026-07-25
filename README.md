@@ -2,21 +2,18 @@
 <!-- ARIA // NEURAL INTERFACE -->
 <!-- ========================= -->
 
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Pankaj Songara banner" />
-</p>
-
-<h1 align="center">PANKAJ SONGARA</h1>
+<h1 align="center">Hi, I'm Pankaj Songara 👋</h1>
 
 <h3 align="center">Founder • AI Systems Engineer • Cybersecurity Engineer</h3>
 
 <p align="center">
-  Building intelligent software at the intersection of Artificial Intelligence,
-  Cybersecurity, and Automation.
+  I build intelligent software at the intersection of artificial intelligence,
+  cybersecurity, and automation—creating technology that is secure, private,
+  and built for the future.
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=20&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+ARIA+OS;Engineering+AI+Systems;Designing+Privacy-First+Technology;Creating+The+Future+of+Human+%C3%97+AI" alt="Typing SVG" />
+  🚀 Currently building <strong>ARIA OS</strong>, an AI operating system reimagining how humans interact with intelligent software.
 </p>
 
 <p align="center">
@@ -31,9 +28,13 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=500&size=22&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Building+Intelligent+Software;Engineering+AI+Systems;Creating+Privacy-First+Technology;Designing+the+Future+of+Human-AI+Interaction" alt="Typing SVG" />
+</p>
+
 ---
 
-## OVERVIEW
+## Overview
 
 I build intelligent software at the intersection of artificial intelligence, cybersecurity, and automation.
 
@@ -43,47 +44,36 @@ Currently, I'm building **ARIA OS** while exploring autonomous AI systems, local
 
 ---
 
-## CURRENT MISSION
+## What I'm Building
 
-> Some systems are built to execute.  
-> Others are built to think.
+I'm currently building **ARIA OS**, a privacy-first AI operating system that brings together artificial intelligence, cybersecurity, and intelligent automation into a single platform.
 
-**Mission:** build ARIA OS — a privacy-first intelligence platform that moves beyond the usual assistant model and feels more like a digital partner.
+The vision behind ARIA is to create software that can think, remember, plan, and collaborate—moving beyond traditional chatbots toward a true digital partner.
 
----
-
-## ACTIVE SYSTEMS
+Every project I build contributes toward that long-term vision while deepening my understanding of AI systems engineering.
 
 <details>
-<summary><strong>◉ ARIA OS</strong></summary>
+<summary><strong>◉ ACTIVE SYSTEMS</strong></summary>
 
+<br>
+
+### 🤖 ARIA OS
 Building something more than an AI assistant.
 
-Status: private, active development.
+🔒 Private repository  
+Status: active development
 
-</details>
-
-<details>
-<summary><strong>◉ ThreatVision AI</strong></summary>
-
+### 🛡 ThreatVision AI
 AI-powered cybersecurity research platform.
 
 → <a href="https://github.com/songarapankaj1304-cmd/ThreatVision-AI">Open repository</a>
 
-</details>
-
-<details>
-<summary><strong>◉ Real-Time Malware Detection</strong></summary>
-
+### 🦠 Real-Time Malware Detection
 Real-time malware detection using Splunk + YARA.
 
 → <a href="https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA">Open repository</a>
 
-</details>
-
-<details>
-<summary><strong>◉ Self-Destructing Chat Room</strong></summary>
-
+### 💬 Self-Destructing Chat Room
 Privacy-first secure communication experiment.
 
 → <a href="https://github.com/songarapankaj1304-cmd/Self-Destructing-Chat-Room">Open repository</a>
@@ -92,34 +82,131 @@ Privacy-first secure communication experiment.
 
 ---
 
-## ENGINEERING TOOLKIT
+## Engineering Toolkit
 
-| Artificial Intelligence | Cybersecurity | Software |
-|---|---|---|
-| AI Systems | Penetration Testing | Node.js |
-| Local LLMs | OWASP | React |
-| AI Agents | Burp Suite | FastAPI |
-| Prompt Engineering | Nmap | JavaScript |
-| Automation | Wireshark | PostgreSQL |
-| AI Architecture | Splunk | MongoDB |
-|  | YARA | Docker |
-|  |  | Linux |
-|  |  | Git |
-|  |  | AWS |
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### 🤖 Artificial Intelligence
+
+- AI Systems Engineering
+- AI Systems Architecture
+- Local LLMs
+- AI Agents
+- Prompt Engineering
+- AI Automation
+
+    </td>
+    <td valign="top" width="50%">
+
+### 🔒 Cybersecurity
+
+- Web Application Security
+- Penetration Testing
+- OWASP Top 10
+- Burp Suite
+- Nmap
+- Wireshark
+- Metasploit
+- Splunk
+- YARA
+
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+
+### ⚙ Backend
+
+- Node.js
+- Express.js
+- FastAPI
+- REST APIs
+
+    </td>
+    <td valign="top" width="50%">
+
+### 💻 Frontend
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+
+### 🗄 Database
+
+- PostgreSQL
+- MongoDB
+- SQLite
+
+    </td>
+    <td valign="top" width="50%">
+
+### ☁ Infrastructure
+
+- AWS
+- Docker
+- Linux
+- Git
+
+    </td>
+  </tr>
+</table>
 
 ---
 
-## NEURAL TERMINAL
+## Current Focus
 
-```text
-> boot_sequence
+- Building ARIA OS
+- Deepening AI systems architecture
+- Strengthening cybersecurity projects
+- Shipping cleaner open-source work
+- Turning ideas into products
 
-██████████████████████████ 100%
+---
 
-Identity : Pankaj Songara
-Role     : Founder
-Core     : AI Systems Engineering
-Mission  : Build ARIA OS
-State    : BUILDING
-Version  : GENESIS
-System   : ONLINE
+## Philosophy
+
+> Some systems are built to execute.  
+> Others are built to think.
+
+---
+
+## GitHub Dashboard
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=songarapankaj1304-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=songarapankaj1304-cmd&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=songarapankaj1304-cmd&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/pankaj-songara-a19284291/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:songarapankaj1304@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  Engineering intelligent software.  
+  Building tomorrow, today.
+</p>
