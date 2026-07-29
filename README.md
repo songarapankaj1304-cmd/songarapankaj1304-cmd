@@ -4,7 +4,7 @@
 
 <h1 align="center">Hi, I'm Pankaj Songara 👋</h1>
 
-<h3 align="center">Founder • AI Systems Engineer • Cybersecurity Engineer</h3>
+<h3 align="center"><!--Founder • -->AI Systems Engineer • Cybersecurity Engineer</h3>
 
 <p align="center">
   I build intelligent software at the intersection of artificial intelligence,
