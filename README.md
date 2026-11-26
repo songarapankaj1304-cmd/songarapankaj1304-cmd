@@ -1,4 +1,13 @@
-![Pankaj Songara — ARIA OS](assets/aria-github-profile-readme.webp)
+<p align="center">
+  <img src="assets/aria-profile-01.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 1" /><br/>
+  <img src="assets/aria-profile-02.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 2" /><br/>
+  <img src="assets/aria-profile-03.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 3" /><br/>
+  <img src="assets/aria-profile-04.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 4" /><br/>
+  <img src="assets/aria-profile-05.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 5" /><br/>
+  <img src="assets/aria-profile-06.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 6" /><br/>
+  <img src="assets/aria-profile-07.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 7" /><br/>
+  <img src="assets/aria-profile-08.webp" width="600" alt="Pankaj Songara — ARIA OS GitHub profile, section 8" />
+</p>
 
 ## Featured repositories
 
@@ -31,4 +40,4 @@ Currently building **ARIA OS** while exploring autonomous AI systems, local LLMs
 
 ---
 
-*The visual is a static public-profile snapshot dated 26 November 2026. It shows verified public repository/profile counts only. Commit totals, contribution history, private activity and unsupported language percentages are not fabricated or displayed.*
+*Profile visual snapshot: 26 November 2026. The image shows verified public-profile figures only. Private repository data, unsupported commit totals and unverified contribution history are not represented as facts.*
