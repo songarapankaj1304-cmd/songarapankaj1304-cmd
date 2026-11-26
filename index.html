@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#020711">
+<meta name="description" content="Pankaj Songara — Founder, AI Systems Engineer and Cybersecurity Engineer. Building ARIA OS.">
+<title>Pankaj Songara | ARIA OS</title>
+<link rel="preconnect" href="https://api.github.com">
+<link rel="preconnect" href="https://avatars.githubusercontent.com">
+<link rel="preconnect" href="https://cdn.simpleicons.org">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#020711;--panel:#020914;--cyan:#16dfff;--blue:#087fff;--violet:#9d54ff;--text:#c9e9ff;--muted:#83a9c3;--green:#00e6a1;--line:#07527b;--mono:"IBM Plex Mono",monospace;--head:"Orbitron",sans-serif;--body:"Rajdhani",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:#01050d}body{margin:0;background:radial-gradient(ellipse at 51% 4%,rgba(0,60,119,.18),transparent 37%),linear-gradient(180deg,#01050d,#020711 47%,#01050d);color:var(--text);font-family:var(--body);font-size:15px;letter-spacing:.18px}a{color:var(--cyan);text-decoration:none}a:hover{text-shadow:0 0 10px var(--cyan)}
+.page{width:min(988px,calc(100% - 36px));margin:18px auto}.panel{position:relative;background:linear-gradient(145deg,rgba(3,13,27,.97),rgba(1,5,13,.98));border:1px solid #07517d;box-shadow:inset 0 0 27px rgba(0,120,200,.055),0 0 20px rgba(0,80,150,.05);clip-path:polygon(0 13px,13px 0,calc(100% - 13px) 0,100% 13px,100% calc(100% - 13px),calc(100% - 13px) 100%,13px 100%,0 calc(100% - 13px))}.panel:after{content:"";position:absolute;inset:5px;border:1px solid rgba(0,134,203,.13);clip-path:inherit;pointer-events:none}.heading{height:20px;margin:0 0 10px;display:flex;align-items:center;gap:7px;color:#6caeff;font:500 12px var(--head);letter-spacing:1.25px;text-transform:uppercase}.heading:before{content:"»";font:700 19px var(--body);color:var(--violet)}.heading:after{content:"";height:1px;flex:1;background:repeating-linear-gradient(90deg,rgba(0,113,176,.55) 0 9px,transparent 9px 13px);opacity:.55}.micro{font:8px var(--mono);letter-spacing:1.2px;color:#3476a5}
+.hero{height:296px;position:relative;overflow:hidden;display:grid;grid-template-columns:205px 1fr 210px;align-items:center;padding:10px 20px 12px;background:radial-gradient(ellipse at 50% 108%,rgba(0,94,188,.28),transparent 48%),linear-gradient(90deg,#01050d 0%,rgba(1,6,15,.93) 53%,rgba(1,7,17,.62) 100%)}.hero-top{position:absolute;top:10px;left:22%;right:5%;height:20px;text-align:center;border-bottom:1px solid rgba(0,108,173,.23);color:#76c5ed;font:9px var(--mono);letter-spacing:1.6px;z-index:4}.version{position:absolute;top:10px;right:27px;font:9px var(--mono);color:#7cc8f0;z-index:5}.terminal{z-index:4;align-self:start;margin-top:23px;font:9px/1.7 var(--mono);color:#8cb6d2}.ok{color:var(--green)}.rule{margin:12px 0 8px;height:1px;background:linear-gradient(90deg,#0673a7,transparent);width:92%}.terminal-label{color:#28c7f3;font:8px var(--mono)}.status{font:17px var(--head);color:var(--green);margin-top:3px;text-shadow:0 0 9px rgba(0,230,161,.45)}.signal{width:142px;height:24px;margin-top:7px}.hero-center{z-index:4;text-align:center;align-self:center;padding:0 0 4px;position:relative;margin-top:8px}.eyebrow{font:9px var(--mono);letter-spacing:1.8px;color:#77badc;margin-bottom:29px;white-space:nowrap}.brand{font:800 58px var(--head);letter-spacing:1px;line-height:1;margin:0;color:#d4f7ff;text-shadow:0 0 8px #00cfff,0 0 26px rgba(0,111,255,.7)}.brand .os{background:linear-gradient(100deg,#21dfff 4%,#9f56ff 96%);color:transparent;background-clip:text}.subtitle{font:13px var(--mono);letter-spacing:3.3px;color:#bfddf1;margin-top:11px}.hero-message{display:inline-block;margin-top:32px;padding:8px 21px;border:1px solid #086ca1;background:rgba(1,7,17,.9);box-shadow:0 0 15px rgba(0,111,180,.09);font:10px var(--mono);letter-spacing:1px;color:#d5edff;position:relative}.hero-message:before,.hero-message:after{content:"";position:absolute;width:9px;height:9px;border-color:var(--cyan);border-style:solid}.hero-message:before{left:-1px;top:-1px;border-width:1px 0 0 1px}.hero-message:after{right:-1px;bottom:-1px;border-width:0 1px 1px 0}.robot{position:absolute;right:24px;bottom:0;width:232px;height:265px;object-fit:contain;z-index:2;filter:drop-shadow(0 0 13px rgba(0,119,255,.28))}.earth{position:absolute;left:18%;bottom:0;width:60%;height:65px;object-fit:cover;opacity:.8;z-index:1;filter:drop-shadow(0 -4px 10px #057fff)}.hud{position:absolute;z-index:3;left:25%;right:25%;top:54px;height:78px;border:1px solid rgba(0,92,146,.23);clip-path:polygon(0 12px,12px 0,calc(100% - 12px) 0,100% 12px,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px));pointer-events:none}.hud:after{content:"";position:absolute;inset:8px;border:1px solid rgba(0,146,209,.1)}.hud-label{position:absolute;left:8px;top:10px;font:7px/1.9 var(--mono);color:#23628f}.vertical{position:absolute;right:27px;bottom:90px;z-index:4;font:14px var(--mono);letter-spacing:4px;color:#16cfff;writing-mode:vertical-rl;transform:rotate(180deg);text-shadow:0 0 10px #087dff}.hero-line{position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,#087aff,#12dcff,#087aff,transparent);z-index:5}
+.intro{height:328px;display:grid;grid-template-columns:1.2fr 1fr;gap:20px;padding:19px 16px 14px}.identity{display:grid;grid-template-columns:184px 1fr;align-items:center;gap:18px}.avatar-frame{width:184px;height:184px;position:relative;border-radius:50%;padding:9px;border:1px solid #10cfff;box-shadow:0 0 0 7px rgba(0,151,255,.08),0 0 24px rgba(0,146,255,.22)}.avatar-frame:before,.avatar-frame:after{content:"";position:absolute;inset:-11px;border:1px solid rgba(0,202,255,.58);border-radius:50%;transform:rotate(23deg)}.avatar-frame:after{inset:-19px;border-color:rgba(137,72,255,.5);transform:rotate(-31deg)}.avatar-frame .ring{position:absolute;inset:-4px;border:1px dashed rgba(0,155,255,.55);border-radius:50%;animation:spin 30s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}#avatar{display:none}#avatarDots{position:relative;z-index:2;width:100%;height:100%;border-radius:50%;background:#06162d}.identity-copy h2{font:600 25px var(--body);margin:0 0 10px;color:#e0f5ff;white-space:nowrap}.identity-copy h2 strong{color:var(--cyan);font-weight:600}.roles{display:grid;gap:7px;font:16px var(--body);color:#b4d5e9}.role{display:flex;align-items:center;gap:10px;white-space:nowrap}.role i{color:#a578ff;font-style:normal}.code-strip{margin-top:13px;padding:8px 9px;border:1px solid #07517d;text-align:center;background:rgba(0,12,27,.6);font:9px var(--mono);letter-spacing:-.2px;color:#8eb7d1;white-space:nowrap}.facts{margin:16px 0 0 42px;display:grid;gap:6px;color:#b1d2e8;font:13px var(--body)}.fact{white-space:nowrap}.fact b{font-weight:600;color:#6cc8f0;margin-right:4px}.about{height:100%;border:1px solid rgba(0,91,146,.25);padding:9px 15px 8px 19px;position:relative;background:linear-gradient(135deg,rgba(5,12,29,.42),rgba(1,7,17,.5));clip-path:polygon(0 12px,12px 0,calc(100% - 12px) 0,100% 12px,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px))}.about p{font:14px/1.45 var(--body);color:#b5d3e6;margin:0 0 14px;max-width:390px}.about-list{display:grid;gap:7px;list-style:none;padding:0;margin:0;font:13px var(--body);color:#b8d5e8}.about-list li:before{content:"◈";color:var(--cyan);margin-right:9px}
+.tech{height:123px;padding:8px 24px 11px;margin-top:0}.tech .heading{margin-bottom:5px}.tech-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:9px;align-items:start}.tech-item{text-align:center;color:#a8cbe2;font:12px var(--body)}.tech-icon{height:55px;border:1px solid #233b79;border-radius:9px;display:grid;place-items:center;background:linear-gradient(145deg,rgba(7,21,47,.95),rgba(2,7,17,.98));box-shadow:inset 0 0 12px rgba(0,113,230,.1),0 0 8px rgba(0,78,153,.06);margin-bottom:4px}.tech-icon img{width:31px;height:31px;object-fit:contain;filter:drop-shadow(0 0 6px rgba(0,130,255,.28))}.tech-item:nth-child(3n) .tech-icon{border-color:#613c92}.tech-item:nth-child(4n) .tech-icon{border-color:#08799b}.more-tools{display:none;position:absolute;right:24px;top:88px;z-index:20;width:265px;padding:12px;background:#030d1c;border:1px solid #0873a9;box-shadow:0 8px 26px #000}.more-tools.open{display:block}.more-tools span{display:inline-block;border:1px solid #23497a;padding:5px;margin:3px;font:10px var(--mono)}
+.columns{display:grid;grid-template-columns:1.2fr 1fr;gap:14px;margin-top:14px}.feature,.stats,.contrib,.activity,.working,.connect{padding:12px 14px}.feature,.stats{min-height:278px}.project{display:grid;grid-template-columns:216px 1fr;gap:20px}.project-art{height:231px;border:1px solid #0b5a8d;background:#03132a}.project-art img{width:100%;height:100%;object-fit:cover}.project-copy h3{font:600 27px var(--head);color:#3baeff;margin:0 0 8px}.project-sub{font:13px var(--body);color:#d4eaff;margin-bottom:9px}.project-description{font:12px/1.45 var(--body);color:#a4c5dd;margin:0 0 12px}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.chip{font:9px var(--mono);border:1px solid #314b87;color:#b7a8ff;padding:5px 7px;background:rgba(47,31,99,.2)}.project-status{display:block;margin-top:14px;font:10px var(--mono);color:#60d3ff}.private-badge{font:8px var(--mono);padding:4px 7px;border:1px solid #8e6b29;color:#ffd16b;margin-left:8px;vertical-align:middle}
+.stats-top{display:grid;grid-template-columns:1fr 142px;gap:8px;align-items:center;border:1px solid #14375f;padding:9px}.stats-title{font:12px var(--mono);color:#42d7ff;margin:0 0 8px}.stat-row{display:grid;grid-template-columns:15px 1fr auto;gap:7px;align-items:center;font:10px var(--mono);margin:6px 0;color:#7fc9f4}.stat-row strong{color:#d0ebff;font-weight:400}.stat-row svg{width:13px;height:13px;fill:none;stroke:#bd72ff;stroke-width:1.6}.orbit{width:126px;height:126px;border-radius:50%;padding:9px;background:conic-gradient(#0ce6ff,#176bff,#a650ff,#1abfff);box-shadow:0 0 20px rgba(16,139,255,.25)}.orbit-inner{height:100%;border-radius:50%;background:#031026;border:3px solid #071c3b;display:grid;place-items:center}.orbit-inner b{font:700 25px var(--head);color:#3adfff}.orbit-inner small{display:block;font:8px var(--mono);color:#9f8dff;text-align:center}.languages{border-top:1px solid #14375f;padding:10px 5px 0;margin-top:8px}.languages-title{font:13px var(--body);color:#28d5ff;margin-bottom:6px}.language-row{display:grid;grid-template-columns:88px 1fr 39px;gap:8px;align-items:center;margin:6px 0;font:10px var(--mono);color:#a8cde6}.bar{height:7px;border-radius:7px;background:#10213c;overflow:hidden}.bar i{height:100%;display:block;background:linear-gradient(90deg,#00d9ff,#7555ff)}.source-note{font:8px var(--mono);color:#577e9f;margin-top:8px}
+.contrib,.activity{min-height:195px}.heat-head{display:grid;grid-template-columns:26px 1fr;margin-top:9px}.months{display:grid;grid-template-columns:repeat(12,1fr);font:8px var(--mono);color:#6f9dbd;text-align:center}.heat-body{display:grid;grid-template-columns:26px 1fr;gap:5px;margin-top:4px}.weekdays{display:grid;grid-template-rows:repeat(7,10px);font:8px var(--body);color:#6f9dbd;align-items:center}.heatmap{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,10px);grid-auto-columns:1fr;gap:3px;overflow:hidden}.heat{background:#0b1b36;border-radius:2px;min-width:0}.l1{background:#123d7c}.l2{background:#1455a0}.l3{background:#087fca}.l4{background:#13c8ea;box-shadow:0 0 5px #087dff}.heat-footer{display:flex;justify-content:space-between;gap:8px;margin-top:13px;font:9px var(--mono);color:#88b6d4}.legend{display:flex;align-items:center;gap:3px}.legend .heat{width:9px;height:9px}
+.activity-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.metric{padding:8px 6px;border:1px solid #123d69;min-width:0}.metric label{display:block;font:9px var(--mono);color:#6fbce8}.metric strong{font:20px var(--head);color:#c7edff;display:block;margin-top:4px}.metric small{font:8px var(--mono);color:#00dca0}.chart{height:107px;margin-top:9px}.chart svg{width:100%;height:100%;overflow:visible}.chart-note{font:9px var(--mono);color:#638caf}
+.working{margin-top:14px;padding:10px 15px 14px}.work-grid{display:grid;grid-template-columns:repeat(6,1fr)}.work-item{display:flex;gap:8px;align-items:center;padding:6px 9px;border-right:1px solid #123451;color:#b1d3e8;font:12px var(--body)}.work-item:last-child{border:0}.work-icon{font-size:19px;color:#24dfff}.work-item small{display:block;color:#82a9c6;font:10px var(--body)}
+.bottom{display:grid;grid-template-columns:1fr 1.08fr;gap:14px;margin-top:14px}.connect,.quote{min-height:132px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contact b{display:block;font:12px var(--body);color:#d0eaff}.contact small{font:9px var(--mono);color:#49c9f5;overflow-wrap:anywhere}.quote{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background:radial-gradient(ellipse at 90% 50%,rgba(0,101,190,.24),transparent 53%),#020914;overflow:hidden}.quote blockquote{font:500 14px var(--head);letter-spacing:1px;line-height:1.55;color:#35dfff;margin:0}.quote small{display:block;font:12px var(--body);color:#9bbbd3;margin-top:10px}.quote img{width:132px;height:94px;object-fit:contain;flex:none;filter:drop-shadow(0 0 10px #087bff)}
+.footer{text-align:center;color:#547d9d;font:8px var(--mono);padding:13px}
+@media(max-width:900px){.page{width:min(680px,calc(100% - 24px))}.hero{grid-template-columns:150px 1fr 130px}.brand{font-size:45px}.robot{width:180px;height:220px}.intro{height:auto;grid-template-columns:1fr}.identity{grid-template-columns:160px 1fr}.avatar-frame{width:148px;height:148px}.about{min-height:190px}.tech{height:auto}.tech-grid{grid-template-columns:repeat(6,1fr)}.columns{grid-template-columns:1fr}.work-grid{grid-template-columns:repeat(3,1fr);row-gap:8px}.bottom{grid-template-columns:1fr}}
+@media(max-width:560px){.page{width:100%;margin:0}.hero{height:235px;grid-template-columns:1fr 68px;padding:12px}.terminal{display:none}.hero-top{left:8px;right:8px;font-size:7px}.version{top:30px;right:10px;font-size:7px}.brand{font-size:32px}.eyebrow{font-size:7px;letter-spacing:1px;margin-bottom:19px}.subtitle{font-size:8px;letter-spacing:1.5px}.hero-message{font-size:7px;margin-top:20px;padding:7px}.robot{width:102px;height:153px;right:2px;opacity:.8}.earth{left:0;width:90%;height:38px}.vertical{right:8px;font-size:9px;bottom:50px}.hud{left:5%;right:18%;top:48px;height:58px}.intro{padding:15px 12px;gap:15px}.identity{grid-template-columns:100px 1fr;gap:12px}.avatar-frame{width:94px;height:94px;padding:5px}.avatar-frame:before{inset:-7px}.avatar-frame:after{inset:-11px}.identity-copy h2{font-size:18px}.roles{font-size:12px;gap:4px}.role{gap:5px}.code-strip{font-size:6px;padding:7px 3px;margin-top:8px}.facts{margin:13px 0 0 4px;font-size:11px;gap:5px}.about{padding:12px;min-height:0}.about p{font-size:12px}.about-list{font-size:11px;gap:6px}.tech{padding:10px 12px}.tech-grid{grid-template-columns:repeat(4,1fr);gap:7px}.tech-icon{height:48px}.tech-icon img{width:27px;height:27px}.columns{gap:10px;margin-top:10px}.feature,.stats,.contrib,.activity,.working,.connect,.quote{padding:11px 12px}.project{grid-template-columns:1fr;gap:12px}.project-art{height:170px}.project-art img{object-fit:contain}.project-copy h3{font-size:23px}.stats-top{grid-template-columns:1fr 105px}.orbit{width:95px;height:95px}.orbit-inner b{font-size:19px}.metric{padding:7px 4px}.metric label{font-size:7px}.metric strong{font-size:15px}.metric small{font-size:6px}.heatmap{gap:2px;grid-template-rows:repeat(7,8px)}.weekdays{grid-template-rows:repeat(7,8px);font-size:7px}.heat-head{margin-top:5px}.heat-footer{font-size:7px}.work-grid{grid-template-columns:repeat(2,1fr)}.work-item{font-size:11px;padding:5px}.bottom{gap:10px;margin-top:10px}.contact-grid{gap:10px}.quote img{width:90px;height:75px}.quote blockquote{font-size:10px}.quote small{font-size:10px}}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="hero panel">
+ <div class="hero-top">BUILDING PRIVATE AI SYSTEMS • SECURING DIGITAL FUTURE</div><div class="version">[ - ARIA OS v2.0 <span style="color:#a755ff">●</span> ]</div>
+ <div class="terminal">
+  <div class="micro">01 INITIALIZATION</div>
+  <div>&gt; initializing_aria_os.exe</div><div>&gt; loading_modules.......<span class="ok">[✓]</span></div><div>&gt; establishing_systems..<span class="ok">[✓]</span></div><div>&gt; welcome_back_pankaj....<span class="ok">[✓]</span></div>
+  <div class="rule"></div><div class="terminal-label">STATUS</div><div class="status">— ONLINE ●</div>
+  <div class="rule"></div><div class="terminal-label">SYSTEM HEALTH</div>
+  <svg class="signal" viewBox="0 0 150 24"><path d="M0 13H20l5-2 4 5 5-15 6 19 5-9 6 2h18l5-2 4 5 5-14 5 17 6-10 8 4h18l5-2 4 5 5-14 5 17 6-10 8 3h12" fill="none" stroke="#00e6a1" stroke-width="1.3"/></svg>
+ </div>
+ <div class="hero-center"><div class="eyebrow">BUILDING PRIVATE AI SYSTEMS • SECURING DIGITAL FUTURE</div><h1 class="brand">&lt; ARIA <span class="os">OS</span> /&gt;</h1><div class="subtitle">AUTONOMOUS • PRIVATE • INTELLIGENT</div><div class="hero-message">NOT JUST AN AI. A DIGITAL PARTNER.</div></div>
+ <div class="hud"><span class="hud-label">SYS/CORE<br>NEURAL NETWORK<br>SECURE CHANNEL</span></div><img class="robot" src="assets/hero-android.svg" alt="Futuristic cybernetic AI profile illustration"><img class="earth" src="assets/hero-earth.svg" alt=""><div class="vertical">ARIA</div><div class="hero-line"></div>
+</header>
+
+<section class="intro panel">
+ <div>
+  <div class="identity">
+   <div class="avatar-frame"><div class="ring"></div><img id="avatar" alt=""><canvas id="avatarDots"></canvas></div>
+   <div class="identity-copy"><h2>Hi, I’m <strong id="name">Pankaj Songara</strong></h2><div class="roles"><div class="role"><i>⚛</i> Founder • AI Systems Engineer</div><div class="role"><i>◎</i> Cybersecurity Engineer</div><div class="role"><i>◉</i> Creator of ARIA OS</div></div><div class="code-strip">while(alive) { build(); learn(); secure(); automate(); }</div></div>
+  </div>
+  <div class="facts"><div class="fact">›　⌖　<b>Location:</b> Jodhpur, India</div><div class="fact">›　◎　<b>Focus:</b> AI Systems • Cybersecurity • Automation</div><div class="fact">›　🚀　<b>Currently:</b> Building ARIA OS</div><div class="fact">›　♟　<b>Open to:</b> AI & Security Projects</div></div>
+ </div>
+ <aside class="about"><h3 class="heading">ABOUT ME</h3><p>I build intelligent software at the intersection of artificial intelligence, cybersecurity, and automation — creating technology that is secure, private, and built for the future. Currently building ARIA OS, a privacy-first AI operating system.</p><ul class="about-list"><li>Building ARIA OS – Personal AI Operating System</li><li>Passionate about Local AI & Multi-Agent Systems</li><li>Cybersecurity Researcher & Ethical Hacker</li><li>Open Source Enthusiast</li><li>Lifelong Learner & Builder</li></ul></aside>
+</section>
+
+<section class="tech panel"><h3 class="heading">TECH STACK</h3><div class="tech-grid">
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/python/3776AB" alt=""></div>Python</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/nodedotjs/339933" alt=""></div>Node.js</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/react/61DAFB" alt=""></div>React</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/fastapi/009688" alt=""></div>FastAPI</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/postgresql/4169E1" alt=""></div>PostgreSQL</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt=""></div>MongoDB</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/docker/2496ED" alt=""></div>Docker</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt=""></div>AWS</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/ollama/FFFFFF" alt=""></div>Ollama</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/langchain/16b6a1" alt=""></div>LangChain</div>
+ <div class="tech-item"><div class="tech-icon"><img src="https://cdn.simpleicons.org/linux/FCC624" alt=""></div>Linux</div>
+ <div class="tech-item"><div class="tech-icon"><span style="font:20px var(--head);color:#c5eaff">•••</span></div>More</div>
+</div></section>
+
+<div class="columns">
+<section class="feature panel"><h3 class="heading">FEATURED PROJECT</h3><div class="project"><div class="project-art"><img src="assets/aria-cover.svg" alt="ARIA Operating System artwork"></div><div class="project-copy"><h3>ARIA OS <span class="private-badge">PRIVATE</span></h3><div class="project-sub">Autonomous Personal AI Operating System</div><p class="project-description">A local-first, privacy-focused AI OS with memory, planning, reasoning and multi-agent architecture — designed as a true digital partner.</p><div class="chips"><span class="chip">Long-Term Memory</span><span class="chip">Multi-Agent System</span><span class="chip">Research Agent</span><span class="chip">Planning Engine</span><span class="chip">Voice Assistant</span><span class="chip">Knowledge Graph</span><span class="chip">Task Automation</span><span class="chip">Local LLM</span></div><span class="project-status">▣ PRIVATE PROJECT • ACTIVE DEVELOPMENT</span><div class="source-note"><a href="https://github.com/songarapankaj1304-cmd/ThreatVision-AI">ThreatVision AI</a> · <a href="https://github.com/songarapankaj1304-cmd/Real-Time-Malware-Detection-Splunk-YARA">Malware Detection</a> · <a href="https://github.com/songarapankaj1304-cmd/Self-Destructing-Chat-Room">Secure Chat</a></div></div></div></section>
+<section class="stats panel"><h3 class="heading">GITHUB STATS</h3><div class="stats-top"><div><p class="stats-title">Pankaj’s GitHub Stats</p>
+ <div class="stat-row">✧ <span>Total Stars Earned</span><strong id="stars">—</strong></div><div class="stat-row">◉ <span>Total Commits</span><strong id="commits">—</strong></div><div class="stat-row">♧ <span>Total PRs</span><strong id="prs">—</strong></div><div class="stat-row">▣ <span>Repositories</span><strong id="repos">—</strong></div><div class="stat-row">♙ <span>Followers</span><strong id="followers">—</strong></div><div class="stat-row">♟ <span>Following</span><strong id="following">—</strong></div>
+ </div><div class="orbit"><div class="orbit-inner"><div><b>GH</b><small>PROFILE</small></div></div></div></div>
+ <div class="languages"><div class="languages-title">Top Languages</div><div id="languages"><span class="source-note">Loading public repository language data…</span></div><div class="source-note" id="statsSource">LIVE PUBLIC GITHUB DATA • LOADING</div></div>
+</section></div>
+
+<div class="columns">
+<section class="contrib panel"><h3 class="heading">CONTRIBUTION GRAPH</h3><div class="heat-head"><span></span><div class="months" id="months"></div></div><div class="heat-body"><div class="weekdays"><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span><span>Sun</span></div><div class="heatmap" id="heatmap"></div></div><div class="heat-footer"><span id="streak">Longest Streak: —</span><span class="legend">Less <i class="heat"></i><i class="heat l1"></i><i class="heat l2"></i><i class="heat l3"></i><i class="heat l4"></i> More</span></div><div class="source-note" id="contribSource">GitHub public contribution calendar • loading</div></section>
+<section class="activity panel"><h3 class="heading">ACTIVITY OVERVIEW</h3><div class="activity-metrics"><div class="metric"><label>Commits</label><strong id="activityCommits">—</strong><small>Source count</small></div><div class="metric"><label>PRs</label><strong id="activityPRs">—</strong><small>Authored</small></div><div class="metric"><label>Issues</label><strong id="activityIssues">—</strong><small>Authored</small></div><div class="metric"><label>Repositories</label><strong id="activityRepos">—</strong><small>Public</small></div></div><div class="chart"><svg id="chart" viewBox="0 0 430 105" preserveAspectRatio="none"><defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6555ff"/><stop offset=".55" stop-color="#00cfff"/><stop offset="1" stop-color="#aa53ff"/></linearGradient><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#087dff" stop-opacity=".42"/><stop offset="1" stop-color="#5423bd" stop-opacity="0"/></linearGradient></defs><path id="area" fill="url(#fill)"></path><path id="linePath" fill="none" stroke="url(#line)" stroke-width="1.7"></path><g id="dots"></g></svg></div><div class="source-note" id="activityNote">Trend is calculated from daily public contribution counts.</div></section>
+</div>
+
+<section class="working panel"><h3 class="heading">CURRENTLY WORKING ON</h3><div class="work-grid"><div class="work-item"><span class="work-icon">ϟ</span><span>ARIA OS v2<small>Core Engine</small></span></div><div class="work-item"><span class="work-icon">◉</span><span>Multi-Agent<small>Architecture</small></span></div><div class="work-item"><span class="work-icon">◎</span><span>Research Agent<small>Enhancement</small></span></div><div class="work-item"><span class="work-icon">▥</span><span>Knowledge Graph<small>System</small></span></div><div class="work-item"><span class="work-icon">♧</span><span>Privacy & Security<small>Framework</small></span></div><div class="work-item"><span class="work-icon">♩</span><span>Voice Assistant<small>Offline</small></span></div></div></section>
+
+<div class="bottom"><section class="connect panel"><h3 class="heading">CONNECT WITH ME</h3><div class="contact-grid"><div class="contact"><b>LinkedIn</b><small><a href="https://www.linkedin.com/in/pankaj-songara-a19284291/">/in/pankaj-songara-a19284291</a></small></div><div class="contact"><b>GitHub</b><small><a href="https://github.com/songarapankaj1304-cmd">songarapankaj1304-cmd</a></small></div><div class="contact"><b>Email</b><small><a href="mailto:songarapankaj1304@gmail.com">songarapankaj1304@gmail.com</a></small></div><div class="contact"><b>Portfolio</b><small>ARIA OS • Personal Website</small></div></div></section>
+<section class="quote panel"><div><blockquote>“THE BEST WAY TO PREDICT THE FUTURE<br>IS TO BUILD IT.”</blockquote><small>— Building ARIA OS to make AI truly personal.</small></div><img src="assets/saturn-quote.svg" alt=""></section></div>
+<div class="footer">BUILDING PRIVATE AI SYSTEMS • SECURING DIGITAL FUTURE • PANKAJ SONGARA</div>
+</main>
+<script>
+"use strict";
+const USER="songarapankaj1304-cmd",API="https://api.github.com";
+const $=id=>document.getElementById(id),fmt=n=>Number(n||0).toLocaleString("en-IN");
+function put(id,value){$(id).textContent=value}
+async function getJSON(url,headers){const r=await fetch(url,{headers:headers||{"Accept":"application/vnd.github+json"}});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+async function optional(url){try{return await getJSON(url)}catch(e){return null}}
+function drawAvatar(url){
+ const img=$("avatar"),canvas=$("avatarDots"),ctx=canvas.getContext("2d");
+ img.crossOrigin="anonymous";img.src=url;
+ const paint=()=>{
+  try{
+   const size=220;canvas.width=size;canvas.height=size;
+   const tiny=document.createElement("canvas");tiny.width=44;tiny.height=44;
+   const t=tiny.getContext("2d",{willReadFrequently:true});t.drawImage(img,0,0,44,44);
+   const pixels=t.getImageData(0,0,44,44).data,step=1,cell=size/44;
+   ctx.clearRect(0,0,size,size);
+   for(let y=0;y<44;y++)for(let x=0;x<44;x++){
+    const k=(y*44+x)*4,lum=(pixels[k]+pixels[k+1]+pixels[k+2])/3;
+    const alpha=.28+lum/255*.64,r=cell*(.18+lum/255*.27);
+    ctx.fillStyle="rgba(25,190,255,"+alpha+")";ctx.shadowColor="#008cff";ctx.shadowBlur=lum>120?4:1;
+    ctx.beginPath();ctx.arc((x+.5)*cell,(y+.5)*cell,r,0,Math.PI*2);ctx.fill();
+   }
+   ctx.shadowBlur=0;
+  }catch(e){canvas.style.backgroundImage="radial-gradient(circle,rgba(31,197,255,.8) 1px,transparent 1.7px)";canvas.style.backgroundSize="5px 5px";canvas.style.mixBlendMode="screen"}
+ };
+ img.onload=paint;img.onerror=()=>{canvas.style.background="radial-gradient(circle,#0b4780,#06162d)"};if(img.complete&&img.naturalWidth)paint();
+}
+function renderLanguages(repos,maps){
+ const totals={};repos.forEach((repo,i)=>Object.entries(maps[i]||{}).forEach(([name,n])=>totals[name]=(totals[name]||0)+Number(n)));
+ const sorted=Object.entries(totals).sort((a,b)=>b[1]-a[1]),sum=sorted.reduce((a,b)=>a+b[1],0);
+ if(!sum){$("languages").innerHTML='<span class="source-note">Language byte totals unavailable.</span>';return}
+ $("languages").innerHTML=sorted.slice(0,4).map(([name,n])=>{const p=n/sum*100;return '<div class="language-row"><span>'+name+'</span><div class="bar"><i style="width:'+p.toFixed(2)+'%"></i></div><span>'+p.toFixed(1)+'%</span></div>'}).join("");
+}
+function renderContrib(data){
+ const heat=$("heatmap");heat.innerHTML="";
+ if(!data||!Array.isArray(data.contributions)){$("contribSource").textContent="Contribution history unavailable from source; no demo graph shown.";return}
+ const items=data.contributions,byDate=new Map(items.map(x=>[x.date,Number(x.count)||0]));
+ const today=new Date();today.setHours(0,0,0,0);const end=new Date(today);const start=new Date(end);start.setDate(start.getDate()-363);
+ start.setDate(start.getDate()-((start.getDay()+6)%7));
+ let max=0,streak=0,best=0,monthNames=[],lastMonth=-1;
+ for(let i=0;i<364;i++){
+  const d=new Date(start);d.setDate(start.getDate()+i);const key=d.toISOString().slice(0,10),count=byDate.get(key)||0;
+  if(d.getMonth()!==lastMonth){monthNames.push({i,name:d.toLocaleString("en",{month:"short"})});lastMonth=d.getMonth()}
+  max=Math.max(max,count);if(count>0){streak++;best=Math.max(best,streak)}else streak=0;
+  const cell=document.createElement("i");cell.className="heat"+(count?" l"+Math.min(4,Math.max(1,Math.ceil(count/3))):"");cell.title=count+" contributions • "+key;heat.appendChild(cell);
+ }
+ $("months").innerHTML=monthNames.map(x=>'<span style="grid-column:'+Math.floor(x.i/7+1)+'">'+x.name+'</span>').join("");
+ put("streak","Longest Streak (within displayed year): "+best+" days");
+ put("contribSource","Source: public GitHub contribution calendar • daily counts");
+ renderChart(items);
+}
+function renderChart(items){
+ const byMonth={};items.forEach(x=>{const k=x.date.slice(0,7);byMonth[k]=(byMonth[k]||0)+Number(x.count||0)});
+ const keys=Object.keys(byMonth).sort().slice(-12);if(!keys.length)return;
+ const vals=keys.map(k=>byMonth[k]),max=Math.max(1,...vals),pts=vals.map((v,i)=>[12+i*(406/Math.max(1,vals.length-1)),92-(v/max)*72]);
+ const line=pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+ $("linePath").setAttribute("d",line);$("area").setAttribute("d",line+" L "+pts[pts.length-1][0]+" 105 L "+pts[0][0]+" 105 Z");
+ $("dots").innerHTML=pts.map(p=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="2.3" fill="#20dfff" stroke="#061329" stroke-width="1"/>').join("");
+ put("activityNote","Monthly contribution counts • "+keys[0]+" to "+keys[keys.length-1]);
+}
+async function main(){
+ const p=await optional(API+"/users/"+USER);
+ if(p){put("name",p.name||p.login);drawAvatar(p.avatar_url);put("followers",fmt(p.followers));put("following",fmt(p.following));}
+ const repoPages=await optional(API+"/users/"+USER+"/repos?type=owner&per_page=100&sort=updated");
+ if(repoPages){
+  const repos=repoPages.filter(r=>r.private===false&&!r.fork);
+  put("repos",fmt(p?p.public_repos:repos.length));put("stars",fmt(repos.reduce((s,r)=>s+r.stargazers_count,0)));
+  const maps=await Promise.all(repos.map(r=>optional(API+"/repos/"+USER+"/"+encodeURIComponent(r.name)+"/languages")));
+  renderLanguages(repos,maps);
+  $("statsSource").textContent="PUBLIC REPOSITORIES ONLY • LIVE GITHUB API";
+ }else{$("languages").textContent="Unavailable";$("statsSource").textContent="GitHub API unavailable or rate-limited."}
+ const queries=[
+  ["commits","https://api.github.com/search/commits?q=author%3A"+USER+"&per_page=1",{"Accept":"application/vnd.github+json"}],
+  ["prs",API+"/search/issues?q=author%3A"+USER+"+is%3Apr&per_page=1"],
+  ["issues",API+"/search/issues?q=author%3A"+USER+"+is%3Aissue&per_page=1"]
+ ];
+ const results=await Promise.all(queries.map(q=>optional(q[1])));
+ const commitN=results[0]&&results[0].total_count,prN=results[1]&&results[1].total_count,issueN=results[2]&&results[2].total_count;
+ put("commits",commitN===undefined?"Unavailable":fmt(commitN));put("prs",prN===undefined?"Unavailable":fmt(prN));
+ put("activityCommits",commitN===undefined?"—":fmt(commitN));put("activityPRs",prN===undefined?"—":fmt(prN));put("activityIssues",issueN===undefined?"—":fmt(issueN));put("activityRepos",repoPages?fmt(repoPages.filter(r=>r.private===false).length):"—");
+ put("activityNote","Commit, PR and issue counts are GitHub search totals; contribution trend is shown separately.");
+ const c=await optional("https://github-contributions-api.jogruber.de/v4/"+USER+"?y=last");renderContrib(c);
+}
+main().catch(e=>{put("statsSource","Data loading failed: "+e.message+" • no sample values inserted")});
+</script>
+</body>
+</html>

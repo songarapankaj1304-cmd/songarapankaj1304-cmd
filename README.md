@@ -118,3 +118,14 @@ A privacy-focused real-time chat prototype with ephemeral, memory-only messages 
   Engineering intelligent software.  
   Building tomorrow, today.
 </p>
+
+
+---
+
+## Portfolio website
+
+The live portfolio is served from `index.html` with GitHub Pages:
+
+**https://songarapankaj1304-cmd.github.io/songarapankaj1304-cmd/**
+
+To publish it, open **Settings → Pages → Deploy from a branch → main → /(root)**. The profile README remains Markdown; the website source is maintained separately in `index.html`.
